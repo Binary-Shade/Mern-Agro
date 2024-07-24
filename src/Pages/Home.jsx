@@ -7,8 +7,6 @@ import About from "./Content.jsx";
 import AnimatedText from "./AnimatedText.jsx";
 import Products from "./Product.jsx";
 // import CustomerReview from "./CustomerReview.jsx";
-import Services from "./Services.jsx";
-import Gallery from "./Gallery.jsx";
 import Footer from "../Components/Footer/Footer.jsx";
 import Timeline from "./Timeline.jsx";
 import Tours from "./Tours.jsx";
@@ -68,7 +66,6 @@ const Home = ({ onScrollEnd }) => {
          <AnimatedText />
         </section>
         <About />
-        {/* <Gallery /> */}
         <Products />
         <Timeline />
         <Tours />
